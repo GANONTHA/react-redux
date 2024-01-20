@@ -58,3 +58,26 @@
   color: red;
   cursor: pointer;
 }
+/* Login */
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 5rem auto;
+  align-items: center;
+  justify-content: center;
+}
+input {
+  width: 10rem;
+  height: 1rem;
+  margin: 0.5rem;
+}
+
+button {
+  height: 1.7rem;
+  width: 5rem;
+  background: #282c34;
+  color: #fff;
+  border: 0;
+  font-weight: 600;
+}
